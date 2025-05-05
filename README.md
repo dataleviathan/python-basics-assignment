@@ -1,67 +1,52 @@
 # Python Basics Assignment Collection
 
-This repository contains a series of beginner-to-intermediate Python programming assignments completed as part of a foundational coding course. Each assignment focuses on key Python concepts including variables, control structures, loops, functions, data structures, recursion, and exception handling.
+This repository contains a series of Python programming assignments designed to build foundational skills. Each task explores essential programming concepts such as variables, loops, functions, data structures, and exception handling.
 
 ---
 
 ## Assignment List
 
 1. **Variables, Operators, and Conditionals**  
-   [`assignment1`](assignment1/assignment1.py)
+   Practice with basic data types, arithmetic operations, and if-statements.
 
 2. **Voter Eligibility Checker**  
-   [`assignment2`](assignment2/voter_eligibility.py)
+   Uses conditional logic to determine if a user is old enough to vote.
 
 3. **Working with Loops**  
-   [`assignment3`](assignment3/loops_assignment.py)
+   Countdown timer, multiplication table, and factorial using loops.
 
-4. **Number Guessing Game (with attempt count)**  
-   [`assignment4`](assignment4/number_guessing_game.py)
+4. **Number Guessing Game**  
+   A game that uses loops and conditionals to guess a random number.
 
 5. **String Methods and Palindrome Check**  
-   [`assignment5`](assignment5/string_methods_assignment.py)
+   Explore slicing, string functions, and detect palindromes.
 
-6. **Password Strength Checker (with scoring)**  
-   [`assignment6`](assignment6/password_strength_checker.py)
+6. **Password Strength Checker**  
+   Checks password complexity with conditionals and string validation.
 
-7. **Lists, Dictionaries, and Tuples Practice**  
-   [`assignment7`](assignment7/data_structures_assignment.py)
+7. **Lists, Dictionaries, and Tuples**  
+   Hands-on with adding, modifying, and accessing various data structures.
 
-8. **Inventory Manager with Dictionary & Tuples**  
-   [`assignment8`](assignment8/inventory_manager.py)
+8. **Inventory Manager**  
+   Create, update, and summarize inventory using a dictionary of tuples.
 
-9. **Functions, Default Params, Varargs, and Recursion**  
-   [`assignment9`](assignment9/functions_and_recursion.py)
+9. **Functions and Recursion**  
+   Practice function parameters, default values, *args, and recursive logic.
 
-10. **Recursive Menu (Factorial, Fibonacci, Fractal Tree)**  
-    [`assignment10`](assignment10/about_menu.py)
+10. **Recursive Menu Program**  
+    Interactive menu with recursive factorial, Fibonacci, and fractal drawing.
 
 11. **Exception Handling Practice**  
-    [`assignment11`](assignment11/exceptions_practice.py)
+    Demonstrate how to catch and handle common Python errors.
 
-12. **Calculator with Exception Handling and Logging**  
-    [`assignment12`](assignment12/calculator_with_exceptions.py)
-
----
-
-## Concepts Covered
-
-- Variables and Data Types  
-- Arithmetic and Logical Operators  
-- Conditional Statements  
-- Loops (`for`, `while`)  
-- Functions and Parameters (default and variable-length)  
-- Recursion  
-- Lists, Tuples, Dictionaries  
-- Exception Handling with `try`, `except`, `else`, `finally`  
-- File-based logging with the `logging` module  
-- User Input and CLI Navigation  
+12. **Calculator with Error Logging**  
+    A calculator with exception handling and error logging to a file.
 
 ---
 
 ## How to Run
 
-To run any assignment:
+Use Python 3 to run any assignment file in the terminal:
 
 ```bash
-python path/to/assignment_folder/filename.py
+python filename.py
